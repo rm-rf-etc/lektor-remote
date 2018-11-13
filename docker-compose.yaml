@@ -1,0 +1,16 @@
+
+version: '3.3'
+
+services:
+
+  lektor:
+    image: softinstigate/lektor
+    ports:
+    - "5000:5000"
+    volumes:
+    - ./lektor-project:/opt/lektor
+    command: ["server", "--host", "0.0.0.0"]
+
+secrets:
+  deploy_key:
+    file: secrets/deploy_key
