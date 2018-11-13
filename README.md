@@ -50,7 +50,7 @@ Both can work but the lektor root is different, so update your volume path if yo
 
 ### What's next
 
-* Add manifest to run s3cmd for S3 deployments ([see docs](https://www.getlektor.com/docs/deployment/)).
+* Add support for deployments ([s3cmd](https://www.getlektor.com/docs/deployment/), [lektor-s3](https://github.com/spenczar/lektor-s3), other...)
 * Need to recommend an approach to separate project files from Lektor container
 * Add traefik and basic auth
 * Probably other things that will come up once I try deploying to a docker swarm...
